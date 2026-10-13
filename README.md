@@ -2,9 +2,28 @@
 
 Two-factor codes, encrypted, in your browser. A browser extension by Ayala Solutions for Chrome, Edge, Brave, Firefox and Safari, in English, Spanish, French, German and Brazilian Portuguese.
 
-This repository holds the public documents for AS Authenticator: the privacy policy, the security policy, the vault
-format, the security audit report and the changelog. The extension's source is maintained privately; every release
-ships with a SHA-256 for each packaged file, listed in the changelog's release notes, so an installed copy can be checked.
+## Get it
+
+| Browser | Install |
+| --- | --- |
+| Chrome, Brave | [Chrome Web Store](https://chromewebstore.google.com/detail/as-authenticator/dbpnmcknkbkphpadmgifjmnmgpknfjec) |
+| Edge | [Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/lngdcjajclmcaeagnielbpcfedigndnd) |
+| Firefox | [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/as-authenticator/) |
+| Safari | [Mac App Store](https://apps.apple.com/us/app/as-authenticator/id6818379710?mt=12) (the app turns the extension on in Safari) |
+
+<p>
+<img src="screenshots/09-accounts-list.png" width="240" alt="Accounts with codes">
+<img src="screenshots/06-add-view.png" width="240" alt="Add an account">
+<img src="screenshots/20-settings-all.png" width="240" alt="Settings">
+</p>
+
+The **[user guide](docs/USER-GUIDE.md)** walks through every screen with screenshots: first run, adding accounts,
+filling codes, categories, backup, settings, the lock screen and the differences between browsers.
+
+This repository holds the public documents for AS Authenticator: the user guide, the privacy policy, the security
+policy, the vault format, the security audit report and the changelog. The extension's source is maintained privately;
+every release ships with a SHA-256 for each packaged file, listed in the changelog's release notes, so an installed
+copy can be checked.
 
 ## What it does
 
@@ -24,7 +43,7 @@ ships with a SHA-256 for each packaged file, listed in the changelog's release n
 - Optional, off by default: sync between your own browsers through Chrome sync or Firefox Sync, ciphertext only.
 - Permissions are the minimum for those features: no host permissions, no content scripts, no remote code, no analytics.
 
-## Where to get it
+## Store status
 
 - Chrome and Brave: [Chrome Web Store](https://chromewebstore.google.com/detail/as-authenticator/dbpnmcknkbkphpadmgifjmnmgpknfjec) (0.14.4 live; 0.14.6 submitted 2026-10-12, pending review)
 - Edge: [Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/lngdcjajclmcaeagnielbpcfedigndnd) (0.14.5 live; 0.14.6 in review)
@@ -37,6 +56,7 @@ Status as of 2026-10-12. The [changelog](CHANGELOG.md) lists what each version c
 
 | File | What |
 | --- | --- |
+| [docs/USER-GUIDE.md](docs/USER-GUIDE.md) | How to use every screen, with screenshots. |
 | [PRIVACY.md](PRIVACY.md) | What the extension stores, what leaves your device, and your choices. |
 | [SECURITY.md](SECURITY.md) | How to report a vulnerability, scope, and how to verify a release. |
 | [docs/VAULT-FORMAT.md](docs/VAULT-FORMAT.md) | The encrypted vault format. |
