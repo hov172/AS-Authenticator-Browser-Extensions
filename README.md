@@ -12,9 +12,9 @@ Two-factor codes, encrypted, in your browser. A browser extension by Ayala Solut
 | Safari | [Mac App Store](https://apps.apple.com/us/app/as-authenticator/id6818379710?mt=12) (the app turns the extension on in Safari) |
 
 <p>
-<img src="screenshots/09-accounts-list.png" width="240" alt="Accounts with codes">
-<img src="screenshots/06-add-view.png" width="240" alt="Add an account">
-<img src="screenshots/20-settings-all.png" width="240" alt="Settings">
+<img src="screenshots/09-accounts-list.png" width="270" alt="Accounts with codes">
+<img src="screenshots/17-accounts-filter-chips.png" width="270" alt="Categories filter the list">
+<img src="screenshots/35-locked-with-hint.png" width="270" alt="The lock screen">
 </p>
 
 The **[user guide](docs/USER-GUIDE.md)** walks through every screen with screenshots: first run, adding accounts,

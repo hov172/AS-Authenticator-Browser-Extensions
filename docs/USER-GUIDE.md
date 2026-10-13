@@ -1,6 +1,6 @@
 # AS Authenticator user guide
 
-Version 0.14.6. The screenshots show the popup in Chrome at 360 px wide, dark theme unless noted. Firefox, Edge, Brave
+Version 0.14.6. The screenshots show the popup in Chrome at 360 px wide, dark theme unless noted; the Settings page is long, so its screenshots are cropped to the cards being discussed. Firefox, Edge, Brave
 and Safari look the same, with the differences listed in [Browser differences](#browser-differences).
 
 Contents
@@ -34,7 +34,9 @@ read pages on its own and only touches the current tab when you click a button o
 
 The first time you open the popup it asks for a master password.
 
-![First run](../screenshots/01-first-run-create-vault.png)
+<p>
+<img src="../screenshots/01-first-run-create-vault.png" width="270" alt="First run">
+</p>
 
 - Use at least 8 characters, and prefer a long phrase. The vault file sits in your browser profile, so the password is
   the only thing protecting it against offline guessing.
@@ -42,15 +44,19 @@ The first time you open the popup it asks for a master password.
   password.
 - The eye button shows what you typed.
 
-![Password and hint typed in](../screenshots/02-first-run-filled.png)
-![Show password](../screenshots/03-first-run-show-password.png)
+<p>
+<img src="../screenshots/02-first-run-filled.png" width="270" alt="Password and hint typed in">
+<img src="../screenshots/03-first-run-show-password.png" width="270" alt="Show password">
+</p>
 
 "Continue without a password" creates an unprotected vault: it opens without asking, there is nothing to lock, and
 anyone with the browser profile or an exported file can read the codes. You can turn a password on later in Settings.
 
 Right after the vault is created you get a recovery code, shown once.
 
-![Recovery code](../screenshots/04-recovery-code.png)
+<p>
+<img src="../screenshots/04-recovery-code.png" width="270" alt="Recovery code">
+</p>
 
 The recovery code opens the vault if you forget the password, so it has the same power as the password. Copy it
 somewhere offline, not in this browser, then click "I saved it". There is no other way to recover a forgotten
@@ -58,14 +64,18 @@ password.
 
 ## The popup
 
-![Empty accounts view](../screenshots/05-accounts-empty.png)
+<p>
+<img src="../screenshots/05-accounts-empty.png" width="270" alt="Empty accounts view">
+</p>
 
 The header holds a countdown ring (seconds left on the current codes), the eye button (hide or show codes) and the
 lock. The tab bar at the bottom switches between Accounts, Add, Categories, Backup and Settings.
 
 ## Accounts
 
-![Accounts list](../screenshots/09-accounts-list.png)
+<p>
+<img src="../screenshots/09-accounts-list.png" width="270" alt="Accounts list">
+</p>
 
 Each row shows the service's icon, the issuer, the account label and the current code. Brand icons are matched
 offline from a bundled set; when none matches, the site's own favicon is loaded from that site, and otherwise the
@@ -75,25 +85,35 @@ first letter is shown. You can also pick your own image for an account in its ed
 - Typing in the search box filters the list as you type.
 - Pinned accounts stay at the top. Drag rows to reorder.
 
-![Search](../screenshots/10-accounts-search.png)
+<p>
+<img src="../screenshots/10-accounts-search.png" width="270" alt="Search">
+</p>
 
 The eye button in the header masks every code as dots and remembers the choice. Copy and fill keep working; tapping a
 masked code shows it for five seconds.
 
-![Hidden codes](../screenshots/11-accounts-hidden-codes.png)
+<p>
+<img src="../screenshots/11-accounts-hidden-codes.png" width="270" alt="Hidden codes">
+</p>
 
 Open a row's edit panel to rename the issuer or label, set the account's website, choose an icon or assign a
 category.
 
-![Edit an account](../screenshots/12-account-edit.png)
+<p>
+<img src="../screenshots/12-account-edit.png" width="270" alt="Edit an account">
+</p>
 
 Delete asks for confirmation inline.
 
-![Delete confirmation](../screenshots/13-account-delete-confirm.png)
+<p>
+<img src="../screenshots/13-account-delete-confirm.png" width="270" alt="Delete confirmation">
+</p>
 
 ## Adding an account
 
-![Add view](../screenshots/06-add-view.png)
+<p>
+<img src="../screenshots/06-add-view.png" width="270" alt="Add view">
+</p>
 
 The Add tab offers every way to get a secret in:
 
@@ -107,8 +127,10 @@ The Add tab offers every way to get a secret in:
 | Paste a link | Paste an `otpauth://` link, or a Google Authenticator `otpauth-migration://` export link, which adds every account in it at once. |
 | Enter details manually | Issuer, account, secret, type (TOTP, HOTP or Steam), digits, algorithm and period. |
 
-![Paste a link](../screenshots/07-add-paste-link.png)
-![Manual entry](../screenshots/08-add-manual.png)
+<p>
+<img src="../screenshots/07-add-paste-link.png" width="270" alt="Paste a link">
+<img src="../screenshots/08-add-manual.png" width="270" alt="Manual entry">
+</p>
 
 A secret that is already in the vault is refused with the name of the existing account, so scanning the same code
 twice never creates a duplicate. Bulk imports skip such secrets and say how many.
@@ -133,20 +155,28 @@ guesses. Change the keys in your browser's extension shortcut settings.
 
 ## Categories
 
-![Categories, empty](../screenshots/14-categories-empty.png)
+<p>
+<img src="../screenshots/14-categories-empty.png" width="270" alt="Categories, empty">
+</p>
 
 Pick an icon, type a name (or leave it blank to use the icon's label) and press +.
 
-![Two categories](../screenshots/15-categories-list.png)
+<p>
+<img src="../screenshots/15-categories-list.png" width="270" alt="Two categories">
+</p>
 
 Assign a category from an account's edit panel. Chips above the accounts list then filter it.
 
-![Assign a category](../screenshots/16-account-edit-category.png)
-![Filter chips](../screenshots/17-accounts-filter-chips.png)
+<p>
+<img src="../screenshots/16-account-edit-category.png" width="270" alt="Assign a category">
+<img src="../screenshots/17-accounts-filter-chips.png" width="270" alt="Filter chips">
+</p>
 
 ## Backup
 
-![Backup view](../screenshots/18-backup-view.png)
+<p>
+<img src="../screenshots/18-backup-view.png" width="270" alt="Backup view">
+</p>
 
 - **Export vault** saves an encrypted `.2fa` file protected by your master password. With password protection off,
   the file is readable by anyone, and the view says so.
@@ -158,17 +188,23 @@ Assign a category from an account's edit panel. Chips above the accounts list th
   vault. **Clear backups** empties the list. Changing or removing the password, or recovering with a code, clears
   them too, so nothing stays encrypted under a key you moved away from.
 
-![Import form](../screenshots/19-backup-import-form.png)
+<p>
+<img src="../screenshots/19-backup-import-form.png" width="270" alt="Import form">
+</p>
 
 After ten changes without an export, the accounts view shows a reminder card. Export now, or Later.
 
-![Backup reminder](../screenshots/34-accounts-backup-reminder.png)
+<p>
+<img src="../screenshots/34-accounts-backup-reminder.png" width="270" alt="Backup reminder">
+</p>
 
 ## Settings
 
 Every choice applies immediately.
 
-![Settings](../screenshots/20-settings-all.png)
+<p>
+<img src="../screenshots/crops/20-settings-all.png" width="270" alt="Settings">
+</p>
 
 | Setting | What it does |
 | --- | --- |
@@ -188,42 +224,56 @@ Every choice applies immediately.
 | Popup size | Compact, Default or Large. |
 | Lock now | Locks immediately. |
 
-![Turning Require password on](../screenshots/21-settings-require-password-form.png)
-![Change master password](../screenshots/22-settings-change-password.png)
-![Sync on](../screenshots/23-settings-sync-on.png)
-![Automatic backups off](../screenshots/24-settings-auto-backup-off.png)
-![Backup reminders off](../screenshots/25-settings-backup-reminders-off.png)
+<p>
+<img src="../screenshots/crops/21-settings-require-password-form.png" width="270" alt="Turning Require password on">
+<img src="../screenshots/crops/22-settings-change-password.png" width="270" alt="Change master password">
+<img src="../screenshots/crops/23-settings-sync-on.png" width="270" alt="Sync on">
+<img src="../screenshots/crops/24-settings-auto-backup-off.png" width="270" alt="Automatic backups off">
+<img src="../screenshots/crops/25-settings-backup-reminders-off.png" width="270" alt="Backup reminders off">
+</p>
 
 Themes:
 
-![Light theme](../screenshots/26-settings-theme-light.png)
-![Follow system](../screenshots/27-settings-theme-system.png)
-![Dark theme](../screenshots/28-settings-theme-dark.png)
-![Accounts, light](../screenshots/32-accounts-light-theme.png)
-![Accounts, dark](../screenshots/33-accounts-dark-theme.png)
+<p>
+<img src="../screenshots/crops/26-settings-theme-light.png" width="270" alt="Light theme">
+<img src="../screenshots/crops/27-settings-theme-system.png" width="270" alt="Follow system">
+<img src="../screenshots/crops/28-settings-theme-dark.png" width="270" alt="Dark theme">
+<img src="../screenshots/32-accounts-light-theme.png" width="270" alt="Accounts, light">
+<img src="../screenshots/33-accounts-dark-theme.png" width="270" alt="Accounts, dark">
+</p>
 
 Popup sizes:
 
-![Compact](../screenshots/29-settings-size-compact.png)
-![Default](../screenshots/31-settings-size-default.png)
-![Large](../screenshots/30-settings-size-large.png)
+<p>
+<img src="../screenshots/crops/29-settings-size-compact.png" width="270" alt="Compact">
+<img src="../screenshots/crops/31-settings-size-default.png" width="270" alt="Default">
+<img src="../screenshots/crops/30-settings-size-large.png" width="270" alt="Large">
+</p>
 
 ## The lock screen
 
-![Locked](../screenshots/35-locked-with-hint.png)
+<p>
+<img src="../screenshots/35-locked-with-hint.png" width="270" alt="Locked">
+</p>
 
 Enter the master password to unlock. The hint, if you set one, is shown under the field. A wrong password is refused.
 
-![Wrong password](../screenshots/38-locked-wrong-password.png)
+<p>
+<img src="../screenshots/38-locked-wrong-password.png" width="270" alt="Wrong password">
+</p>
 
 **Use a recovery code** opens the vault with the saved code, asks for a new password and issues a new code.
 
-![Recovery form](../screenshots/36-locked-recovery-form.png)
+<p>
+<img src="../screenshots/36-locked-recovery-form.png" width="270" alt="Recovery form">
+</p>
 
 **Start over** deletes the vault after a confirmation, exactly as removing the extension would. There is no other
 reset: without the password or the recovery code, the vault cannot be opened.
 
-![Start over](../screenshots/37-locked-start-over.png)
+<p>
+<img src="../screenshots/37-locked-start-over.png" width="270" alt="Start over">
+</p>
 
 ## Browser differences
 
