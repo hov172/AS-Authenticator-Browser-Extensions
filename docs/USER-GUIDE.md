@@ -202,10 +202,6 @@ After ten changes without an export, the accounts view shows a reminder card. Ex
 
 Every choice applies immediately.
 
-<p>
-<img src="../screenshots/crops/20-settings-all.png" width="270" alt="Settings">
-</p>
-
 | Setting | What it does |
 | --- | --- |
 | Require password to open | Off re-encrypts the vault under an empty password: it opens without asking and nothing is protected. Turning it back on asks for a new password. |
@@ -224,46 +220,25 @@ Every choice applies immediately.
 | Popup size | Compact, Default or Large. |
 | Lock now | Locks immediately. |
 
-Password protection and the master password:
+| The settings list | Turning Require password on | Change master password |
+| --- | --- | --- |
+| <img src="../screenshots/crops/20-settings-all.png" width="270" alt="Settings"> | <img src="../screenshots/crops/21-settings-require-password-form.png" width="270" alt="Require password form"> | <img src="../screenshots/crops/22-settings-change-password.png" width="270" alt="Change master password"> |
 
-<p>
-<img src="../screenshots/crops/21-settings-require-password-form.png" width="270" alt="Turning Require password on">
-<img src="../screenshots/crops/22-settings-change-password.png" width="270" alt="Change master password">
-</p>
+| Sync on, with its status line | Automatic backups off | Backup reminders off |
+| --- | --- | --- |
+| <img src="../screenshots/crops/23-settings-sync-on.png" width="270" alt="Sync on"> | <img src="../screenshots/crops/24-settings-auto-backup-off.png" width="270" alt="Automatic backups off"> | <img src="../screenshots/crops/25-settings-backup-reminders-off.png" width="270" alt="Backup reminders off"> |
 
-Sync turned on, with its status line:
+| Theme: Light | Theme: Follow system | Theme: Dark |
+| --- | --- | --- |
+| <img src="../screenshots/crops/26-settings-theme-light.png" width="270" alt="Light theme"> | <img src="../screenshots/crops/27-settings-theme-system.png" width="270" alt="Follow system"> | <img src="../screenshots/crops/28-settings-theme-dark.png" width="270" alt="Dark theme"> |
 
-<p>
-<img src="../screenshots/crops/23-settings-sync-on.png" width="270" alt="Sync on">
-</p>
+| Accounts in the light theme | Accounts in the dark theme |
+| --- | --- |
+| <img src="../screenshots/32-accounts-light-theme.png" width="270" alt="Accounts, light"> | <img src="../screenshots/33-accounts-dark-theme.png" width="270" alt="Accounts, dark"> |
 
-The two backup toggles:
-
-<p>
-<img src="../screenshots/crops/24-settings-auto-backup-off.png" width="270" alt="Automatic backups off">
-<img src="../screenshots/crops/25-settings-backup-reminders-off.png" width="270" alt="Backup reminders off">
-</p>
-
-Theme: Light, Follow system and Dark, then the accounts view in light and dark:
-
-<p>
-<img src="../screenshots/crops/26-settings-theme-light.png" width="270" alt="Light theme">
-<img src="../screenshots/crops/27-settings-theme-system.png" width="270" alt="Follow system">
-<img src="../screenshots/crops/28-settings-theme-dark.png" width="270" alt="Dark theme">
-</p>
-
-<p>
-<img src="../screenshots/32-accounts-light-theme.png" width="270" alt="Accounts, light">
-<img src="../screenshots/33-accounts-dark-theme.png" width="270" alt="Accounts, dark">
-</p>
-
-Popup size: Compact, Default and Large (shown at their real relative widths):
-
-<p>
-<img src="../screenshots/crops/29-settings-size-compact.png" height="400" alt="Compact">
-<img src="../screenshots/crops/31-settings-size-default.png" height="400" alt="Default">
-<img src="../screenshots/crops/30-settings-size-large.png" height="400" alt="Large">
-</p>
+| Popup size: Compact | Popup size: Default | Popup size: Large |
+| --- | --- | --- |
+| <img src="../screenshots/crops/29-settings-size-compact.png" width="270" alt="Compact"> | <img src="../screenshots/crops/31-settings-size-default.png" width="270" alt="Default"> | <img src="../screenshots/crops/30-settings-size-large.png" width="270" alt="Large"> |
 
 ## The lock screen
 
