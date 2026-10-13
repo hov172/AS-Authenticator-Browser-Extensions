@@ -1,4 +1,4 @@
-# AS Authenticator
+# AS Authenticator Browser Extensions
 
 Two-factor codes, encrypted, in your browser. A browser extension by Ayala Solutions for Chrome, Edge, Brave, Firefox and Safari, in English, Spanish, French, German and Brazilian Portuguese.
 
