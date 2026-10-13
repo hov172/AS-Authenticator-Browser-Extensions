@@ -26,13 +26,12 @@ ships with a SHA-256 for each packaged file, listed in the changelog's release n
 
 ## Where to get it
 
-Version 0.14.3 is live on all three stores:
+- Chrome and Brave: [Chrome Web Store](https://chromewebstore.google.com/detail/as-authenticator/dbpnmcknkbkphpadmgifjmnmgpknfjec) (0.14.4 live; 0.14.6 submitted 2026-10-12, pending review)
+- Edge: [Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/lngdcjajclmcaeagnielbpcfedigndnd) (0.14.5 live; 0.14.6 in review)
+- Firefox: [addons.mozilla.org](https://addons.mozilla.org/en-US/firefox/addon/as-authenticator/) (0.14.6 live)
+- Safari: [Mac App Store](https://apps.apple.com/us/app/as-authenticator/id6818379710?mt=12) (0.14.4 live; 0.14.6 waiting for review; the app only turns the extension on in Safari)
 
-- Chrome, Edge and Brave: [Chrome Web Store](https://chromewebstore.google.com/detail/as-authenticator/dbpnmcknkbkphpadmgifjmnmgpknfjec)
-- Firefox: [addons.mozilla.org](https://addons.mozilla.org/en-US/firefox/addon/as-authenticator/)
-- Safari: [Mac App Store](https://apps.apple.com/us/app/as-authenticator/id6818379710?mt=12) (the app only turns the extension on in Safari)
-
-Version 0.14.4, which changes toolbar icons only, was submitted to all three on 2026-10-10 and is under review.
+Status as of 2026-10-12. The [changelog](CHANGELOG.md) lists what each version changed and where it was submitted.
 
 ## Documents
 
@@ -41,7 +40,7 @@ Version 0.14.4, which changes toolbar icons only, was submitted to all three on 
 | [PRIVACY.md](PRIVACY.md) | What the extension stores, what leaves your device, and your choices. |
 | [SECURITY.md](SECURITY.md) | How to report a vulnerability, scope, and how to verify a release. |
 | [docs/VAULT-FORMAT.md](docs/VAULT-FORMAT.md) | The encrypted vault format. |
-| [docs/security-audit-report-2026-09-30.md](docs/security-audit-report-2026-09-30.md) | The security audit: every finding, fix and accepted risk, across twelve review passes and an adversarial design review, through 0.14.4. |
+| [docs/security-audit-report-2026-09-30.md](docs/security-audit-report-2026-09-30.md) | The security audit: every finding, fix and accepted risk, across twelve review passes and an adversarial design review, through 0.14.6. |
 | [CHANGELOG.md](CHANGELOG.md) | Release notes. |
 
 ## Support

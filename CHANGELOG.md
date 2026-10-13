@@ -1,5 +1,24 @@
 # Changelog
 
+## 0.14.6 — 2026-10-11
+
+Backup controls. Submitted on 2026-10-11 to addons.mozilla.org (publish workflow; approved and public on 2026-10-12), the Mac App Store (build 31, review submission ef336e09, waiting for review; the unreviewed 0.14.5 submission was cancelled and the version renamed) and Edge Add-ons (update submission, in review; Microsoft had approved 0.14.5). Chrome Web Store: uploaded and submitted on 2026-10-12, pending review with automatic publish on approval, once Google had approved 0.14.4.
+
+### Added
+- Settings: Automatic backups, On or Off (`autoBackup`, default on). Off stops keeping the previous vault on each change; backups already made stay until cleared.
+- Backup tab: a Clear backups button under the list, shown when there is something to clear. It empties the automatic backups without touching the vault or the password.
+
+## 0.14.5 — 2026-10-10
+
+Popup fixes found in Safari, plus one setting. Submitted on 2026-10-10 night to addons.mozilla.org (listed version 6563587, publish workflow), the Mac App Store (build 30, review submission b6a9176b, waiting for review; Apple had approved 0.14.4 by then) and Edge Add-ons (update submission, in review; Microsoft had approved 0.14.4). The Chrome Web Store still held 0.14.4 in review and offers no cancel, so 0.14.5 was never submitted there. addons.mozilla.org approved 0.14.5 on 2026-10-11 and Edge Add-ons published it; the Mac App Store submission was still waiting when 0.14.6 replaced it, so 0.14.5 never shipped there.
+
+### Added
+- Settings: Backup reminders, On or Off. Off hides the "Time for a backup" card that otherwise returns every 10 vault changes after Later. On by default; the Backup tab and automatic local backups are unchanged.
+
+### Fixed
+- Safari: the Keyboard shortcuts card listed a third entry, "AS Authenticator: not set". That is Safari's own open-the-popup command, which it reports from `commands.getAll()` under the extension's name; browser-internal commands are now left out of the list.
+- Safari: when the popover is capped shorter than the popup layout, the tab bar, Lock now and the version line fell below the clip and could not be reached by scrolling. The tab bar is now sticky at the bottom, like the header at the top, so the popup scrolls as a whole and the tabs stay visible. Chrome and Firefox were unaffected.
+
 ## 0.14.4 — 2026-10-10
 
 Toolbar icons only; no code change. Submitted on 2026-10-10 to addons.mozilla.org through the publish workflow, to the Chrome Web Store by hand (the dashboard refused to submit until the privacy policy link was changed to the raw GitHub file, since GitHub's blob pages now answer 503 to its checker), and to the Mac App Store as version 0.14.4, build 29 (review submission 13872bdc). Apple had approved 0.14.3 (build 23) by 2026-10-10. addons.mozilla.org approved 0.14.4 the same afternoon. Edge Add-ons: first submission ever, 0.14.4 (the Chrome package) through Partner Center on 2026-10-10 with listings in all five packaged languages, each with its own description; in review.
