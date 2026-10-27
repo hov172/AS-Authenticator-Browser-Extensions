@@ -58,8 +58,6 @@ Status as of 2026-10-12. The [changelog](CHANGELOG.md) lists what each version c
 | --- | --- |
 | [docs/USER-GUIDE.md](docs/USER-GUIDE.md) | How to use every screen, with screenshots. |
 | [PRIVACY.md](PRIVACY.md) | What the extension stores, what leaves your device, and your choices. |
-| [app-privacy.md](app-privacy.md) | Privacy policy for the native iPhone, iPad and Mac app, AS Authenticator Vault. |
-| [support.md](support.md) | Support page for the native app. |
 | [SECURITY.md](SECURITY.md) | How to report a vulnerability, scope, and how to verify a release. |
 | [docs/VAULT-FORMAT.md](docs/VAULT-FORMAT.md) | The encrypted vault format. |
 | [docs/security-audit-report-2026-09-30.md](docs/security-audit-report-2026-09-30.md) | The security audit: every finding, fix and accepted risk, across twelve review passes and an adversarial design review, through 0.14.6. |
