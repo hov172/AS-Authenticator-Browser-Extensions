@@ -68,6 +68,4 @@ Status as of 2026-10-12. The [changelog](CHANGELOG.md) lists what each version c
 Open an issue here for questions, problems or requests. For anything that could be a vulnerability, follow
 [SECURITY.md](SECURITY.md) instead of opening a public issue.
 
-## License
 
-GPL-3.0.
